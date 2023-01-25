@@ -568,7 +568,7 @@ button.swiper-pagination-bullet {
         width: 26%;
         margin-left: 21px;
     }
-    .card{
+    .cardvalue{
       padding: 41px;
       width: 430px;
     }
@@ -620,7 +620,7 @@ button.swiper-pagination-bullet {
     color: #4d4d4d;
     font-size: 18px;
 }
-.card {
+.cardvalue {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%);
   background:linear-gradient(90deg, #aedef9b0, #ddf5a8b5, #efaf88b8);
   border-radius: 20px;

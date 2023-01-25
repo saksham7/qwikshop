@@ -12,17 +12,13 @@ export class AppComponent {
 // install Swiper modules
   config: SwiperOptions = {
     direction: 'horizontal',
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 50,
     loop: true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },
     autoplay: {delay: 2000, disableOnInteraction: true},
     breakpoints:{
-          480: {
-            slidesPerView: 1,
-            spaceBetween: 30
-          },
           640: {
             slidesPerView: 2,
             spaceBetween: 50

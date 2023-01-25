@@ -959,6 +959,7 @@ video {
     padding-left: 4rem;
     padding-right: 4rem;
   }
+  
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -977,7 +978,7 @@ video {
     padding-right: 2rem;
   }
   .lg\:text-left {
-    text-align: left;
+    text-align: left !important;
   }
   .lg\:text-4xl {
     font-size: 2.25rem;

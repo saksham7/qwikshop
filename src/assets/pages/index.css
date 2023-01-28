@@ -580,8 +580,32 @@ button.swiper-pagination-bullet {
       padding-left: 12rem;
       padding-right: 0rem;
     }
+  
+  
+
   }
 
+ 
+  @media (min-width: 1024px){
+    .payment{
+      margin-left: 0px !important;
+     }
+     .payment-icon{
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+     }
+  }
+  .payment{
+    margin-left: 8px;
+   }
+   .payment-icon{
+    margin-bottom: 23px;
+    margin-left: 5px;
+   }
+
+  .w-4 {
+    width: 2rem; 
+  }
   .store-feature-info-col ul.star-blue li::before {
     content: url('../images/starImage.jpg');
     width: 19px;
